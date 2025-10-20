@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+.container{
+    max-width: 400px;
+    background: white;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px;
+    overflow: hidden;
+}
+.header{
+    background:blueviolet;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.timers{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    border-radius: 15px;
+
+}
+.timer{
+    text-align: center;
+}
+.timer h4{
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+}
+.timer p{
+    margin: 5px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+.timerline{
+    padding: 15px;
+
+}
+.item{
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #8e9afe;
+}
+.item.break{
+    border-left-color: green;
+    font-weight: bold;
+
+}
+.time{
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.location{
+    font-size: 13px;
+    color: #777;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    background: #f1f1f1;
+    border-radius: 12px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+}
+.stats div{
+    text-align: center;
+}
+.stats span{
+    display: block;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.active-users{
+        overflow-x:auto;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+}
+.avatar-list{
+    display: flex;
+    gap: 15px;
+    padding-left: 0;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    overflow: hidden;
+    flex-shrink: 0;
+    align-items: center;
+    
+    
+}
+.avatar.img{
+    width: 45%;
+    height: 55%;
+    border-radius: 50%;
+    object-fit: cover;
+    gap: 10px;
+}
+.date{
+    font-size: 1em;
+    font-weight: 500px;
+    color: #555;
+    margin: 10px 0 20px 0;
+}
+time.state{
+    display: flex;
+    gap: 15px;
+}
+.stat-card{
+    flex: 1;
+    background-color:#fff;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.state-lable{
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
